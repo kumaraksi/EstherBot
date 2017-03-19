@@ -218,7 +218,8 @@
 		padding: 0 0 20px 60px;
 		margin-top: 0px;
 		position: relative;
- 	}
+		color: #141414;
+		}
 	
 	section[role=main] h3:after, h3:before {
 		content: ' ';
@@ -287,6 +288,7 @@
 	
 	.experiences li p, .formations li p {
 		margin-left: 30px;
+		margin-top: 5px;
 	}
 	
 	/**********************************************
