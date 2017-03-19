@@ -391,3 +391,7 @@
 		padding-left: 15px;
 		border-left: 3px solid #ccc;
 	} 
+
+	blockquote.bq3 ul {
+		list-style: none;
+	}
