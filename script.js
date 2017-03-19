@@ -18,6 +18,13 @@ module.exports = new Script({
         }
     },
 
+    random_fact: {
+        receive: (bot) => {
+            return bot.say('Just say HELLO to get started.')
+                .then(() => 'speak');
+        }
+    },
+
     speak: {
         receive: (bot, message) => {
 
